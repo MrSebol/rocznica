@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasza Rocznica 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1>Dla Karolinki 💕</h1>
+    <p>Specjalny quiz tylko dla Ciebie...</p>
+    <button onclick="startQuiz()">Zaczynamy 💌</button>
+</header>
+
+<section class="quiz" id="quiz-section">
+    <div class="progress">
+        <span id="progress-text">1 / 7</span>
+        <div class="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-image">
+            <img id="question-img" src="">
+        </div>
+
+        <div class="quiz-box">
+            <h2 id="question"></h2>
+            <div id="answers"></div>
+            <p id="feedback"></p>
+        </div>
+    </div>
+</section>
+
+<section class="album" id="album-section">
+    <h2>Nasz Album 📸</h2>
+
+    <button class="restart-btn" onclick="restartQuiz()">
+        Zagraj jeszcze raz 💕
+    </button>
+
+    <div class="gallery">
+        <img src="1.jpg" class="photo">
+        <img src="2.jpg" class="photo">
+        <img src="3.jpg" class="photo">
+        <img src="4.jpg" class="photo">
+        <img src="5.jpg" class="photo">
+        <img src="6.jpg" class="photo">
+        <img src="7.jpg" class="photo">
+        <img src="Czarny.jpg" class="photo">
+        <img src="kibic.jpg" class="photo">
+        <img src="golas.jpg" class="photo">
+        <img src="instax.jpg" class="photo">
+    </div>
+</section>
+
+
+<div id="lightbox">
+    <span id="close">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<footer>
+    <p>Zrobione z miłością 💞</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
